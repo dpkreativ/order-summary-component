@@ -1,0 +1,28 @@
+main {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.plan {
+  padding: 1rem;
+  /* background-color: hsl(225, 100%, 98%); */
+  background-color: grey;
+  border-radius: 1rem;
+  /* width: max-content; */
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
