@@ -1,3 +1,19 @@
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--primary-pale-blue);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 main {
   width: 100%;
   max-width: 300px;
